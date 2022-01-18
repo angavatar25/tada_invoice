@@ -3,7 +3,9 @@
     <div class="max-w-6xl m-auto py-4">
       <h1 class="text-2xl font-bold mb-6">Invoice Dashboard</h1>
       <div>
-        <InvoiceList :tableData="dummy" @OpenInvoiceDetail="showInvoiceDetail"/>
+        <InvoiceList 
+          :tableData="dummy" 
+          @OpenInvoiceDetail="showInvoiceDetail"/>
       </div>
       <div class="mt-10">
         <InvoiceDetail 

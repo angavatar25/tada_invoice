@@ -1,10 +1,10 @@
 <template>
     <div class="bg-white p-5 rounded-md">
         <div class="flex gap-10 mb-6 border-b border-gray-300">
-            <button :class="currentStatus === 'all' ? 'border-black border-b' : ''" class="pb-5" @click="filterStatus('all')">All</button>
-            <button :class="currentStatus === 'paid' ? 'border-black border-b ' : ''" class="pb-5" @click="filterStatus('paid')">Paid</button>
-            <button :class="currentStatus === 'pending' ? 'border-black border-b' : ''" class="pb-5" @click="filterStatus('pending')">Pending</button>
-            <button :class="currentStatus === 'cancelled' ? 'border-black border-b' : ''" class="pb-5" @click="filterStatus('cancelled')">Cancelled</button>
+            <button :class="currentStatus === 'all' ? 'border-black border-b' : ''" class="pb-5 outline-none" @click="filterStatus('all')">All</button>
+            <button :class="currentStatus === 'paid' ? 'border-black border-b ' : ''" class="pb-5 outline-none" @click="filterStatus('paid')">Paid</button>
+            <button :class="currentStatus === 'pending' ? 'border-black border-b' : ''" class="pb-5 outline-none" @click="filterStatus('pending')">Pending</button>
+            <button :class="currentStatus === 'cancelled' ? 'border-black border-b' : ''" class="pb-5 outline-none" @click="filterStatus('cancelled')">Cancelled</button>
         </div>
         <table class="table">
             <tr class="text-left">
