@@ -37,6 +37,7 @@
                     <div>
                         <p class="mb-2">Shipping from</p>
                         <p class=" text-2xl">{{detail.shipping_detail.shipping_city}}, {{detail.shipping_detail.shipping_country}}</p>
+                        <p>{{ detail.shipping_detail.shipper }}</p>
                         <p>{{ detail.shipping_detail.shipping_address }}</p>
                         <p>{{ detail.shipping_detail.shipping_num }}</p>
                     </div>
@@ -44,6 +45,7 @@
                     <div>
                         <p class="mb-2">Destination</p>
                         <p class="text-2xl">{{ detail.shipping_detail.destination_detail.destination_city }}, {{detail.shipping_detail.destination_detail.destination_country}}</p>
+                        <p>{{ detail.shipping_detail.destination_detail.receiver }}</p>
                         <p>{{ detail.shipping_detail.destination_detail.destination_address }}</p>
                         <p>{{ detail.shipping_detail.destination_detail.destination_num }}</p>
                     </div>

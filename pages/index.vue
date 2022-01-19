@@ -39,11 +39,13 @@ export default {
                   date_issued: '14/10/2020',
                   date_arrival: '17/10/2020',
                   invoice: 'ZGA-8789-AG',
+                  shipper: 'Amazon Spain',
                   shipping_city: 'Barcelona',
                   shipping_country: 'Spain',
                   shipping_address: 'El Dorado del Vincente, 243HQ, City of Barcelona',
                   shipping_num: '+347890192',
                   destination_detail: {
+                    receiver: 'Kenneth Nicholas Tube',
                     destination_city: 'London',
                     destination_country: 'United Kindgom',
                     destination_address: 'Merchant Street, 196L, Croydon',
@@ -57,7 +59,7 @@ export default {
                 },
               },
               {
-                id: 1, 
+                id: 2, 
                 invoice: 'ZGA-8789-AG', 
                 due_date: '12-10-2023 18:30', 
                 amount: '19132',
@@ -67,11 +69,13 @@ export default {
                   date_issued: '14/10/2020',
                   date_arrival: '-',
                   invoice: 'ZGA-8789-AG',
+                  shipper: 'Amazon Spain',
                   shipping_city: 'Madrid',
                   shipping_country: 'Spain',
                   shipping_address: 'El Dorado del Vincente, 243HQ, City of Madrid',
                   shipping_num: '+347890192',
                   destination_detail: {
+                    receiver: 'Dom Aubrey',
                     destination_city: 'London',
                     destination_country: 'United Kindgom',
                     destination_address: 'Merchant Street, 196L, Croydon',
@@ -84,8 +88,8 @@ export default {
                   }
                 },
               },
-                            {
-                id: 1, 
+              {
+                id: 3, 
                 invoice: 'ZGA-8789-AG', 
                 due_date: '12-10-2023 18:30', 
                 amount: '19089', 
@@ -95,11 +99,13 @@ export default {
                   date_issued: '14/10/2020',
                   date_arrival: '-',
                   invoice: 'ZGA-8789-AG',
+                  shipper: 'Amazon France',
                   shipping_city: 'Paris',
                   shipping_country: 'France',
                   shipping_address: 'El Dorado del Vincente, 243HQ, City of Paris',
                   shipping_num: '+347890192',
                   destination_detail: {
+                    receiver: 'Aubrey Graham',
                     destination_city: 'London',
                     destination_country: 'United Kindgom',
                     destination_address: 'Merchant Street, 196L, Croydon',
@@ -112,8 +118,8 @@ export default {
                   }
                 },
               },
-                            {
-                id: 1, 
+              {
+                id: 4, 
                 invoice: 'ZGA-8789-AG', 
                 due_date: '12-10-2023 18:30', 
                 amount: '19350',
@@ -123,11 +129,13 @@ export default {
                   date_issued: '14/10/2020',
                   date_arrival: '17/10/2020',
                   invoice: 'ZGA-8789-AG',
+                  shipper: 'Amazon Ukraine',
                   shipping_city: 'Kyiv',
                   shipping_country: 'Ukraine',
                   shipping_address: 'El Dorado del Vincente, 243HQ, City of Kyiv',
                   shipping_num: '+347890192',
                   destination_detail: {
+                    receiver: 'Taylor Evans',
                     destination_city: 'London',
                     destination_country: 'United Kindgom',
                     destination_address: 'Merchant Street, 196L, Croydon',
